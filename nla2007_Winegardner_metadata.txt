@@ -1,0 +1,126 @@
+Metadata to accompany manuscript: Winegardner et al. "Landscape-level drivers of diatom communities: how different are they between water-column and surface sediment samples?"
+
+Files in alphabetical order:
+nla2007_diat_51sed.csv
+nla2007_diat_51wc.csv
+nla2007_diat_468sed.csv
+nla2007_diat_468wc.csv
+nla2007_diat_classification.csv
+nla2007_env_51.csv
+nla_env_468.csv
+nla2007_siteinfo.csv
+
+Diatom data: 
+nla2007_diat_51sed.csv
+- subset of 51 sites
+- surface sediment diatoms from sediment core
+- columns: 
+Site = lake ID
+Species = diatom species in relative abundance 
+
+nla2007_diat_51wc.csv
+- subset of 51 sites
+- water-column diatoms from 2 visits
+- columns:
+Site = lake ID
+Visit_No = visit 1 or 2 in season
+Species = diatom species in relative abundance 
+
+nla2007_diat_468sed.csv
+- 468 sites
+- surface sediment diatoms from sediment core 
+- columns:
+Site = lake ID
+Sampling_type = surface sediment
+Species = diatom species in relative abundance 
+
+nla2007_diat_468wc.csv
+- 468 sites
+- water-column diatoms from single visit 
+- columns: 
+Site = lake ID
+Sampling_type = water-column
+Species = diatom species in relative abundance 
+
+nla2007_diat_classification.csv
+- list of habitat classifications for master list of diatom species
+- columns: 
+Species = list of diatom species
+Classification = benthic, planktonic or tychoplanktonic 
+
+Environmental data: 
+nla2007_env_51.csv
+- environmental variables from water-column sampling
+- all water quality variables available included, except for those with high co-linearity 
+- non-transformed 
+- 2 sampling visits
+- subset of 51 sites
+- columns: 
+Site = lake ID
+Visit_No = 1 or 2
+Date = sampling visit date
+pH_field = pH as measured in field
+Cond = conductivity (us/cm)
+Turb = turbidity (NTU) 
+DOC = dissolved organic carbon (mg/L)
+NH4 = ammonium (ueq/L) 
+NTL = total nitrogen (ug/L) 
+PTL = total phosphorous (ug/L) 
+CL = chloride (ueq/L) 
+SO4 = sulphate (ueq/L) 
+CA = calcium (ueq/L)
+MG = magnesium (ueq/L) 
+NA = sodium (ueq/L) 
+K = potassium (ueq/L) 
+Colour = colour (PCU) 
+SIO2 = silica (mg/L SiO2)
+OH = hydroxide from pH in lab (ueq/L) 
+CHLA = chlorophyll a (ug/L) 
+SECMEAN = mean secchi disk depth (m, average of disk disappearance and reappearance) 
+
+nla_env_468.csv
+- environmental variables from water-column sampling
+- all water quality variables available included, except for those with high co-linearity 
+- non-transformed
+- single sampling visit 
+- 468 sites
+- columns: 
+Site = lake ID
+Visit_No = 1 
+pH_field = pH as measured in field
+Cond = conductivity (us/cm)
+Turb = turbidity (NTU) 
+DOC = dissolved organic carbon (mg/L)
+NH4 = ammonium (ueq/L) 
+NO3_NO2 = nitrate + nitrite by flow injection analysis (mg N/L) 
+NTL = total nitrogen (ug/L)
+PTL = total phosphorous (ug/L)
+CL = chloride (ueq/L) 
+SO4 = sulphate (ueq/L)
+CA = calcium (ueq/L)
+MG = magnesium (ueq/L) 
+Colour = colour (PCU) 
+SIO2 = silica (mg/L SiO2)
+H = H+ ion (ueq/L) 
+OH = hydroxide from pH in lab (ueq/L) 
+BALANCE2 = ion balance using ANC (%) 
+CHLA = chlorophyll a (ug/L)
+SECMEAN = mean secchi disk depth (m, average of disk disappearance and reappearance) 
+
+nla2007_siteinfo.csv
+- information for lakes by lake ID
+- columns:
+Site = lake ID
+ALBERS_X = x-coordinate from Albers projection (m)
+ALBERS_Y = y-coordinate from Albers projection (m) 
+Longitude_DD = longitude in decimal degrees
+Latitude_DD = latitude in decimal degrees
+State = US state name
+EPA_reg_code = Region # to correspond with NLA final report (USEPA 2009) 
+WSA_reg = wadeable stream assessment region (Omnernik level 3) (Herlihy et al. 2008)
+Omernik_L3 = Omnernik level 3 
+Nutrient_reg_code = Nutrient region code, based on EPA nutrient criteria 
+Nutrient_reg_name = Nutrient region name, based on EPA nutrient criteria 
+Nutrient_aggregate_reg = Nutrient aggregate region
+Lake_origin = Man-made reservoir or natural 
+Obs_zmax = Observed maximum depth of lake 
